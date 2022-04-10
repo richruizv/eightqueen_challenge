@@ -51,7 +51,7 @@ class NQueens:
             line = ""
             for column in range(self.size):
                 if positions[row] == column:
-                    line += "👑 "
+                    line += "Q "
                 else:
                     line += ". "
             print(line)
@@ -62,7 +62,7 @@ class NQueens:
         """
         Show the queens positions on the board in compressed form,
         each number represent the occupied column position in the corresponding row.
-        """
+        """ 
         line = ""
         for i in range(self.size):
             line += str(positions[i]) + " "
@@ -70,7 +70,7 @@ class NQueens:
 
 def main():
     """Initialize and solve the n queens puzzle"""
-    NQueens(8)
+    NQueens(16)
 
 if __name__ == "__main__":
     # execute only if run as a script
