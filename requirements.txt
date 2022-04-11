@@ -1,0 +1,3 @@
+pytest
+sql_alchemy
+psycopg2-binary
