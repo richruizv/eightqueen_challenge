@@ -1,5 +1,3 @@
-from cmath import e
-from pprint import pprint
 import time
 
 import db
@@ -139,7 +137,7 @@ In this project, you can decide any board size you want!!!
         )
         board_size = int(input("please, put the board size: "))
         print("""
-Select to way you want to show the results
+Select a way you want to show the results
     1: Show Simple board (positions of each array)
     2: Show Full board ( an ASCII representation of the chess board)
     3: Store in Database (Saving into a Postgress database)
